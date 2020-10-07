@@ -70,11 +70,11 @@ def sms_reply():
 
 
 
-    # def final_order():
-    #     global order_fin
-    #     order_fin = {}
-    #     # resp.message("started but in func")
-    #     # return 0
+    def final_order():
+        global order_fin
+        order_fin = {}
+        resp.message("started but in func")
+        return 0
 
 
     a = msg.split()
